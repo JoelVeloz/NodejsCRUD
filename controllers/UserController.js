@@ -20,7 +20,7 @@ exports.save = (req, res) => {
         if (err) {
             console.log(err)
         } else {
-            res.redirect('/')
+            res.redirect('/users')
         }
     })
 }
@@ -33,7 +33,7 @@ exports.update = (req, res) => {
         if (err) {
             console.log(err)
         } else {
-            res.redirect('/')
+            res.redirect('/users')
         }
     })
 }
@@ -53,7 +53,7 @@ exports.delete = (req, res) => {
         if (err) {
             console.log(err)
         } else {
-            res.redirect('/')
+            res.redirect('/users')
         }
     })
 }
